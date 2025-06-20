@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Form Page</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
-<body>
-    <h2>Submit Your Information</h2>
-    <form method="POST" action="/form">
-        <div>
-            <label for="name">Name:</label>
-            <input id="name" name="name" type="text" />
+<body class="body">
+    <h2 class="heading">Submit Your Information</h2>
+    <form method="POST" action="/form" class="form">
+        <div class="form-group">
+            <label for="name" class="label">Name:</label>
+            <input id="name" name="name" type="text" class="input" />
         </div>
-        <div>
-            <label for="address">Address:</label>
-            <input id="address" name="address" type="text" />
+        <div class="form-group">
+            <label for="address" class="label">Address:</label>
+            <input id="address" name="address" type="text" class="input" />
         </div>
-        <div>
-            <input type="submit" value="Submit" />
+        <div class="form-group">
+            <input type="submit" value="Submit" class="submit-btn" />
         </div>
     </form>
-    <p><a href="/">Back to Home</a></p>
+    <p class="link"><a href="/">Back to Home</a></p>
 </body>
 </html>
