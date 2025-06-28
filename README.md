@@ -4,7 +4,7 @@ Welcome to **Learn-Go** — a collection of beginner-friendly projects built usi
 
 Each folder in this repository contains a standalone project with its own purpose, source code, and documentation.
 
-
+---
 
 ## 📁 Projects
 
@@ -18,7 +18,19 @@ A simple static website served with Go. Features:
 
 ➡️ [View project README](./go-server/README.md)
 
+---
 
+### ✅ [go-todo](./go-todo)
+
+A minimalistic to-do list web application with in-memory data storage. Features:
+
+- Add, mark as done, and delete tasks
+- Dynamic HTML rendering with `html/template`
+- Clean styling and basic input validation
+
+➡️ [View project README](./go-todo/README.md)
+
+---
 
 ## 🚀 Getting Started
 
@@ -27,7 +39,7 @@ To explore a project:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Learn-Go.git
+   git clone https://github.com/sa7vic/Learn-Go.git
    cd Learn-Go
    ```
 
