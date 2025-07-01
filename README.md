@@ -32,6 +32,19 @@ A minimalistic to-do list web application with in-memory data storage. Features:
 
 ---
 
+### ✅ [go-notes](./go-notes)
+
+A lightweight note-taking app built with Go. Features:
+
+- Add and delete notes with titles and content
+- In-memory storage (no database)
+- Mutex for concurrency safety
+- Fully responsive UI with clean styling
+
+➡️ [View project README](./go-notes/README.md)
+
+---
+
 ## 🚀 Getting Started
 
 To explore a project:
@@ -46,7 +59,7 @@ To explore a project:
 2. Navigate to a project folder, for example:
 
    ```bash
-   cd go-server
+   cd go-notes
    ```
 
 3. Follow the instructions in that folder’s `README.md` to run the project.
@@ -80,4 +93,3 @@ Feel free to fork this repo and contribute your own beginner-friendly Go project
 ## 📄 License
 
 This repository is open-source under the [MIT License](LICENSE).
-
