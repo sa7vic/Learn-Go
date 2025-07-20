@@ -41,8 +41,8 @@ go-todo/
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/sa7vic/learn-go.git
-   cd learn-go
+   git clone https://github.com/sa7vic/Learn-Go.git
+   cd Learn-Go
    cd go-todo
    ```
 
